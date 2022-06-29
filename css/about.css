@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.6;
+    background: #fff;
+}
+.header-name{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/image_10.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+    width: 100vw;
+}
+.header{
+    
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px){
+    .body{
+        background-color: lightblue;
+
+    }
+}
+.logo{
+    width: 140px;
+    cursor: pointer;
+    background-color: red;
+    border: 2px solid black;
+    margin: 12px;
+}
+.menu{
+    padding: 8px;
+    font-size: 1.2rem;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 12px;
+}
+.menu li a{
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 18px;
+    padding: 10% 0;
+    margin: 20px;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.line{
+    height: 4px;
+    width: 6rem;
+    background: #ffbc00;
+    display: block;
+    margin:  0 auto 2rem auto;  
+}
+.about-1{
+        text-align: center;
+        font-size: 20px;
+
+}
+.about-b{
+    padding: 40px;
+    padding-left: 120px;
+    display: flex;
+}
+.about-img{
+    
+}
+.bio-proj{
+    text-align: center;
+    background-color:#f4f4f4 ;
+    padding-left: 40px;
+}
+.ach{
+    margin-top: 3rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px;
+    padding-bottom: 40px;
+        
+}
+.ach div i,h3,p{
+    padding: 5px 0px;
+}
+.ach-1,.ach-2,.ach-3{
+    text-align: center;
+}
+.test{
+    padding: 60px;
+}
+.box{
+    display: flex;
+    padding: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+     border-radius: 5px;
+     padding: 0.5rem;
+     padding-bottom: 40px;
+    
+}
+.footer{
+    background: rgb(244, 69, 69);
+    color: #fff;
+    padding: 50px 0;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    
+}
+.footer-name{
+    display: flex;
+    background-color: grey;
+}
+div.footer div.footer-3 div.follow li a{
+    color: #fff;
+}
+.follow li::before a{
+    color: #fff;
+    
+}
+.footer-mark{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: rgb(244, 69, 69);
+    text-align: center;
+    color: #fff;
+    
+}
+.comp,.follow,.navig{
+    font-size: 30px;
+    text-align: px;
+}
+.menu-2 > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.footer-1 > .line{
+    margin: 0;
+}
+.container {
+    background-color: rgb(192, 192, 192);
+    width: 100%;
+    border-radius: 10px;
+}
+
+.skill {
+    background-color: rgb(89, 217, 50);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 10px;
+    border-radius: 30px;
+    transition: width 3s ease;
+}
+
+.html {
+    width: 0%;
+}
+
+.css{
+    width: 0%;
+}
+.bootstrap{
+    width: 0%;
+}
+.sass {
+    width: 0%;
+}
+.js {
+    width: 0%;
+}
+.react {
+     width: 0%;
+}
+.progress{
+    background-color:   #fc0335;
+    padding: 80px;
+    padding-bottom: 120px;
+}
+.text{
+    color: #f4f4f4;
+}
+.progress h1{
+    color: #f4f4f4;
+}
+.fa-solid{
+    color: #f5b70e;
+} 
+.countdown{
+    background-color: #ffbc00;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  margin: 0;
+ 
+  
+}
+.yt,.insta,.fb{
+    justify-content: center;
+    text-align: center;
+    margin: 30px 50px;
+}
+.num{
+    font-size: 60px;
+    margin-top: 10px;
+}
