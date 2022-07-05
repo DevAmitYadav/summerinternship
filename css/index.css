@@ -3,6 +3,7 @@
     padding: 0;
 }
 body {
+    scroll-behavior: smooth;
     font-family: "Times New Roman", Times, serif;
     line-height: 1.6;
     background: #fff;
@@ -10,7 +11,7 @@ body {
 .header-name{
     height: 100vh;
     width: 100%;
-    background-image: url(/images/image_10.jpg);
+    background-image: url(/images/image_land.jpg);
     background-size: cover;
     background-position: center;
     
