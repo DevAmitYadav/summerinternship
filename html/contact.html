@@ -1,107 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/contact.css">
-    <title>Document</title>
-</head>
-<body>
-        <header class="header-name">
-            <div class="header">
-    
-                <div>
-                    <img src="/images/logo.png" class="logo">
-                </div>
-    
-                <div class="menu">
-    
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="activity.html">Activity</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">ContactUs</a></li>
-                </div>
-    
-            </div>
-            <h1>CONTACT ME</h1>
-        <div class="line"></div>
-        <div class="about-1">Here is how you can reach me</div>
-        <div class="about-b">
-            <div class="container">  
-                <form id="contact" action="" method="post">
-                  <fieldset>
-                    <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-                  </fieldset>
-                  <fieldset>
-                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
-                  </fieldset>
-                  <fieldset>
-                    <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
-                  </fieldset>
-                  <fieldset>
-                    <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-                  </fieldset>
-                  <fieldset>
-                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-                  </fieldset>
 
-                </form>
-              </div>
-              <div class="pro">
-                <div class="project">Lets start your next Project</div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/contact.css">
+  <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <header class="header-name">
+    <div class="header">
+
+      <div>
+        <img src="/images/logo.png" class="logon">
+      </div>
+
+      <div class="menu">
+
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="activity.html">ACTIVITY</a></li>
+        <li><a href="project.html">PROJECTS</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </div>
+    </div>
+
+  </header>
+  <div>
+  <hr class="border-line">
+</div>
+  <div class="contact">
+    <h1>CONTACT ME</h1>
+  </div>
+    <div class="line"></div>
+    <div class="about-1">Here is how you can reach me</div>
+    <div class="about-b">
+      <form onsubmit="event.preventDefault()">
+        <div class="text-fields">
+            <div class="div-1">
+            <div class="form-content">
+                <input type="text" class="text-input name-input" pattern="[a-zA-Z].{2,}"
+                    title="Must be alphbets only,minimum 3 " required>
+                <label>Name</label>
             </div>
-              <footer>
-                <div class="footer">
-                    <div class="footer-1">
-                        <div class="comp">Address</div>
-                        <div class="line"></div>
-                       <div class="addr">1931/45 Ganesh Kunj Society,<br>
-                        vadsar Gandhinagar,<br>
-                        Near. Air force Station Vadsar 
-                        Gandhinagar, Gujarat 382721
-                    </div>
-                    </div>
-                    <div class="footer-2">
-                        <div class="navig">Navigate</div>
-                        <div class="line"></div>
-                        <div class="menu-2">
-                             <li><a href="index.html">Home</a></li>
-                             <li><a href="about.html">About</a></li>
-                             <li><a href="activity.html">Activity</a></li>
-                             <li><a href="gallery.html">Gallery</a></li>
-                             <li><a href="contact.html">Contact</a></li>
-                        </div>
-                    </div>
-                    <div class="footer-3">
-                        <div class="follow-1">Follow Me</div>
-                        <div class="line"></div>
-                        <div class="follow">
-                            <i class="fa-brands fa-facebook"></i>
-                            <i class="fa-brands fa-twitter-square"></i>
-                            <i class="fa-brands fa-instagram-square"></i>
-                            <i class="fa-brands fa-linkedin"></i>
-                    </div>
-                    <div class="email">
-                        <i class="fa-solid fa-envelope-open-text fa-2x"></i>
-                        <div class="email-1">Email</div>
-                        <div class="email-id">ay820494@gmail.com</div>
-                    </div>
-                    <div class="phone">
-                        <i class="fa-solid fa-mobile-screen-button fa-2x"></i>
-                        <div class="phone">phone</div>
-                        <p>8128224833</p>
-                    </div>
-                    </footer>
-                    <hr>
-                    <div class="footer-mark">Copyright © 2022 Amit Yadav. All Rights Reserved</div>
-                
+            <div class="form-content">
+
+                <input type="text" class="text-input subject-input" required>
+                <label>Subject</label>
+            </div>
+        </div>
+        <div class="div-2">
+            <div class="form-content">
+
+                <input type="email" class="text-input email-input"
+                    title="Email format must be ___@___.__"
+                    required>
+                    <!-- pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" -->
+                <label>Email</label>
+            </div>
+            <div class="form-content">
+
+                <input type="text" class="text-input phone-input" 
+                    title="Exactly 10 digits  " required>
+                    <!-- pattern="[0-9]{10,10}" -->
+                <label> Phone No</label>
+            </div>
+        </div>
+        <div class="text-area">
+            <textarea class="text-input message-input" placeholder="Enter Message" required></textarea>
+        </div>
+    </div>
+        
+        <div class="div-3">
+        <button type="submit" class="btn-dark">Submit</button>
+    </div>
+    </form>
+      </div>
+      <div class="map">
+        <div class="map-icon">
+          <i class="fa-regular fa-address-card fa-2x"></i>
+          <h3>ADDRESS</h3>
+          <p>204 copper leaf,
+            opp. Parshwanath Jain mandir,<br>
+            AEC Char Rasta, Bhuyangdev,<br>
+            Ahmedabad, Gujarat 380061</p>
+        </div>
+            <div class="emb-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58737.09910755406!2d72.538102!3d23.057943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x249acb663e46af9b!2sSoft%20Coding%20Solutions!5e0!3m2!1sen!2sin!4v1657105561912!5m2!1sen!2sin"
+            width="360" height="180" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+      </div>
+      <div class="pro">
+        <div class="project">Lets start your next Project</div>
+      </div>
+      <footer>
+        <div class="footer">
+            <div class="footer-1">
+                <div class="head">
+                <div class="comp">Address</div>
+                <div class="line"></div>
+            </div>
+               <div class="addr">1931/45 Ganesh Kunj Society,<br>
+                vadsar Gandhinagar,<br>
+                Near. Air force Station Vadsar 
+                Gandhinagar, Gujarat 382721
+            </div>
+            </div>
+            <div class="footer-2">
+                <div class="head">
+                <div class="navig">Navigate</div>
+                <div class="line"></div>
+            </div>
+                <div class="menu-2">
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="about.html">About</a></li>
+                     <li><a href="activity.html">Activity</a></li>
+                     <li><a href="project.html">Gallery</a></li>
+                     <li><a href="contact.html">Contact</a></li>
                 </div>
-                </footer>
-                <script src="/js/index.js"></script>
-            </body>
-                    </head>
-                </html>
-    
+            </div>
+            <div class="footer-3">
+                <div class="follow-1">Follow Me</div>
+                <div class="line"></div>
+                <div class="follow">
+                   <a href="https://www.instagram.com/epsilon_rex/"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                    <a href="https://www.facebook.com/yadav.amit.543/"><i class="fa-brands fa-twitter-square fa-2x"></i></a>
+                    <a href="https://twitter.com/Menzmonk1"><i class="fa-brands fa-instagram-square fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/amit-kumar-yadav-3741b7149/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+            </div>
+            <div class="email">
+                <i class="fa-solid fa-envelope-open-text fa-2x"></i>
+                <div class="email-1">EMAIL</div>
+                <div class="email-id">ay820494@gmail.com</div>
+            </div>
+            <div class="phone">
+                <i class="fa-solid fa-mobile-screen-button fa-2x"></i>
+                <div class="phone-1">PHONE</div>
+                <div class="no">8128224833</div>
+            </div>
+            </div>
+        </div>
+          <hr>
+            <div class="footer-mark">Copyright © 2022 Amit Yadav. All Rights Reserved</div>
+      </div>
+      </footer>
+    <script src="/js/contact.js"></script>
+</body>
+</html>
