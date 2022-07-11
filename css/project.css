@@ -12,7 +12,7 @@ body {
 .header-name {
     
     
-    background-image: url(/images/image_land.jpg);
+    background-image: url(../images/image_land.jpg);
     background-size: cover;
     background-position: center;
     height: 14vh;

@@ -10,7 +10,7 @@ body {
 .header-name{
   
   width: 100vw;
-  background-image: url(/images/image_land.jpg);
+  background-image: url(../images/image_land.jpg);
   background-size: cover;
   background-position: center;
   animation: fadeIn 5s;
