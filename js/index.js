@@ -1,7 +1,7 @@
 
     setTimeout(display, 4000);
     function display(){
-        document.getElementById("bio-2").innerHTML = "WEB DEVELOPER, JAVASCRIPT, REACTJS"
+        document.getElementById("bio-2").innerHTML = "WEB DEVELOPMENT, C/C++, REACTJS"
 }
 window.addEventListener('scroll',functionCall)
 function functionCall() {
