@@ -8,12 +8,10 @@ body {
     background: #fff;
 }
 .header-name{
-    height: 100vh;
-    width: 100%;
-    background-image: url(/images/image_10.jpg);
+    background-image: url(/images/image_land.jpg);
     background-size: cover;
     background-position: center;
-    height: 20vh;
+    height: 14vh;
     width: 100vw;
 }
 .header{
@@ -28,15 +26,16 @@ body {
     }
 }
 .logo{
-    width: 140px;
-    cursor: pointer;
-    background-color: red;
-    border: 2px solid black;
-    margin: 12px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -40px;
 }
 .menu{
     padding: 8px;
     font-size: 1.2rem;
+    padding-top: 2rem;
 }
 .menu li{
     list-style: none;
@@ -52,16 +51,24 @@ body {
     width: 70px;
     height: 30px;
     text-align: center;
+    color: rgb(23, 31, 17);
+    text-decoration: none;
+    border: 2px solid rgb(128, 10, 10);
+    padding: 5px;
+    border-radius: 5px;
 }
 h1{
     text-align: center;
 }
 .line{
     height: 4px;
-    width: 6rem;
+    width: 8rem;
     background: #ffbc00;
     display: block;
     margin:  0 auto 2rem auto;  
+}
+.work-1{
+    padding-top: 30px;
 }
 .img-grid{
     padding: 0;
@@ -95,7 +102,7 @@ h1{
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgb(244, 69, 69);
+    background-color: rgb(65, 199, 31);
     opacity: 0.92;
     overflow: hidden;
     width: 100%;
@@ -123,14 +130,13 @@ h1{
     white-space: nowrap;
 }
 .footer{
-    background: rgb(244, 69, 69);
-    color: #fff;
-    padding: 50px 0;
-    max-width: 100%;
-    width: 100%;
+    justify-content: space-evenly;
+    width: 100vw;
     display: flex;
-    justify-content: space-around;
-    padding-top: 40px;
+    height: 25rem;
+    background-color : #01091c;
+    color: #fff;
+    
     
 }
 .footer-name{
@@ -144,17 +150,41 @@ div.footer div.footer-3 div.follow li a{
     color: #fff;
     
 }
+.menu-2{
+    color: black;
+}
+.menu-2 li{
+  
+    list-style: none;
+    text-align: center;
+    
+    
+    
+}
+.menu-2 li a{
+    display: table-cell ;
+    height: 40px;
+    width: 40px;
+    margin: 0.8rem 0.5rem;
+    padding: 0.2rem 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
 .footer-mark{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background: rgb(244, 69, 69);
+   
+    padding-top: 20px;
+    padding-bottom: 20px;
+   width: 100vw;
+    background: #01091c;
     text-align: center;
     color: #fff;
     
 }
-.comp,.follow,.navig{
+.comp,.follow-1,.navig,.follow{
     font-size: 30px;
-    text-align: px;
+    
+  
 }
 .menu-2 > li > a{
     text-decoration: none;
@@ -163,16 +193,88 @@ div.footer div.footer-3 div.follow li a{
 
 
 .footer-1{
+    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    
 }
 .footer-1 > .line{
     margin: 0;
+}
+.footer-3 > .line{
+    margin: 0;
+}
+.icon-copy{
+    padding:2rem;
+    border-radius: 50%;
+    box-sizing: content-box;
+    height: 4.7rem;
+    width: 4.7rem;
+    line-height: 4.7rem;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(8, 169, 56);
+    position: relative;
+    transition: all 0.4s ease, background-color 0.3s ease;
+    
+}
+
+.icon-copy:hover {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(192, 145, 235);
+
+}
+.step{
+    position: absolute;
+    top: 0;
+    right:0;
+    background-color: rgb(192, 145, 235);
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height:40px ;
+    border-radius: 50%;
+}
+.head{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.follow{
+   padding-top: 20px;
+}
+
+.email-1,.phone,.fa-envelope-open-text
+{   
+    padding-top: 10px;
+    font-size: 20px;
+}
+.email-id,.phone-1{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.email-id,.no{
+    padding-left: 10px;
+}
+
+.addr{
+    font-size: 20px;
 }
 .work{
     text-align: center;
     padding: 60px auto;
 
+}
+.fa-facebook,.fa-twitter-square,.fa-instagram-square,.fa-linkedin{
+    color: #F9F9F9;
+  }
+  .border-line{
+    position: relative;
+    top: 0px;
+    width: 100vw;
+    border: none;
+    height: 4px;
+    background-color: #f5b70e;
+    
 }
